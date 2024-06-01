@@ -15,6 +15,12 @@
 		]
 	},
 	"require": {
-		"bcosca/fatfree-core": "~3.8"
-	}
+		"bcosca/fatfree-core": "dev-redis_tls_and_username"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/ryanrolds/fatfree-core"
+		}
+	]
 }

@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "83356f277267fddb9baba72175404301",
+    "packages": [
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "dev-redis_tls_and_username",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryanrolds/fatfree-core.git",
+                "reference": "de6b41e7a42653a030c30465181ca820bd462480"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryanrolds/fatfree-core/zipball/de6b41e7a42653a030c30465181ca820bd462480",
+                "reference": "de6b41e7a42653a030c30465181ca820bd462480",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "source": "https://github.com/ryanrolds/fatfree-core/tree/redis_tls_and_username"
+            },
+            "time": "2024-06-01T21:15:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bcosca/fatfree-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
